@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgreen;
+    border: black;
+    border: 2px;
+    border: solid;
+    }
+
+.contacter-name {
+    display: inline-block;
+    justify-content: start;
+    text-align: left;
+}
+.label {
+    display: flex;
+    justify-content: start;
+}
+ .input {
+    justify-content: start;
+    text-align: left;
+    margin-right: auto;
+    margin-left: 0;
+ }
+ button {
+    width: 300px;
+ }
+ .contacter-email {
+    width: 300px;
+ }
+
+ .contacter-email input , .contacter-request-reason select, textarea  {
+    width: 300px;
+ }

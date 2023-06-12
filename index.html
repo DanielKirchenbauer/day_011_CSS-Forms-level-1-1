@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-level-1-1</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <section>
+            <form action="">
+                <div class="contacter-name">
+                    <div class="label">
+                        <label for="Name">Name *</label>
+                    </div>
+                    <div class="input">
+                        <input type="text" placeholder="Vorname" id="firstname" required>
+                        <input type="text" placeholder="Nachname" id="lastname" required>
+                    </div>
+                </div>
+                <div class="contacter-email">
+                    <div class="label">
+                        <label for="Email"> Email *</label>
+                    </div>
+                    <input type="Email" required>
+                </div>
+                <div class="contacter-request-reason">
+                    <div class="label">
+                        <label for="Thema">Thema</label>
+                    </div>
+                    <select name="request-topic" id="topic-select">
+                    <option value="">--Please select a topic--</option>
+                    <option value="advertise">Advertise</option>
+                    <option value="complain">Complain</option>
+                </select>
+                </div>
+                <div>
+                    <div class="label">
+                        <label for="message">Nachricht: *</label>
+                    </div>
+                    <textarea name="message" id="" cols="30" rows="10">Schreib hier...</textarea>
+                </div>
+                <div>
+                    <button>Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
